@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>namasteReact</title>
+</head>
+<body>
+    <div id = "root"></div>
+    <script>
+        const heading = document.createElement('h1');
+        heading.innerHTML = "hello world from javascript";
+        //now we need to append our heading to our div i.e root for that we need or root element
+        const root = document.getElementById('root');
+        //for this root we need to append our heading h1
+        root.appendChild(heading);
+        //heading h1 is created/appended as a child in our root elememt
+    </script>
+</body>
+</html>
